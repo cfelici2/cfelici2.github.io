@@ -83,3 +83,16 @@ tbody tr:nth-child(even) td
 {
 	background-color: hsl(240, 100%, 80%);
 }
+
+button {
+    background-color: darkblue;
+    color: yellow;
+}
+.text-input{
+    font-family: monospace;
+    font-size: 16px;
+    width: 40%;
+}
+.blue-text {
+    color:blue;
+}
