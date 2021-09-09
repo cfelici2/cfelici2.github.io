@@ -54,3 +54,32 @@ a {
 img {
     height: 200px;
 }
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: blue;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: hsl(240, 100%, 60%);
+}
+tbody tr:nth-child(even) td
+{
+	background-color: hsl(240, 100%, 80%);
+}
