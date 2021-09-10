@@ -62,7 +62,7 @@ table
 	margin: 20px;
 }
 
-thead tr
+thead tr:nth-child(1)
 {
 	background-color: blue;
 }
