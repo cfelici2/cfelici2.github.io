@@ -94,3 +94,6 @@ button {
     width: 30%;
     border-radius: 3px;
 }
+h3 a:any-link {
+    color:yellow;
+}
