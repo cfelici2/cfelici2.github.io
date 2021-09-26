@@ -13,22 +13,22 @@ let greeting =()=> {
     document.write("<h3>!</h3>");
 }
 
-let test = ()=> {
-    alert("I'm testing my script.");
+let test1 = ()=> {
+    alert("I'm testing my script 1.");
 }
 
-let test = ()=> {
-    alert("I'm testing my script.");
+let test2 = ()=> {
+    alert("I'm testing my script 2.");
 }
 
-let test = ()=> {
-    alert("I'm testing my script.");
+let test3 = ()=> {
+    alert("I'm testing my script 3.");
 }
 
-let test = ()=> {
-    alert("I'm testing my script.");
+let test4 = ()=> {
+    alert("I'm testing my script 4.");
 }
 
-let test = ()=> {
-    alert("I'm testing my script.");
+let test5 = ()=> {
+    alert("I'm testing my script 5.");
 }
