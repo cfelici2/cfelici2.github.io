@@ -1,4 +1,4 @@
-let greeting =()=> {
+//let greeting =()=> {
     let userName = prompt("What is your name?");
     let userFeeling = prompt("How are you doing?");
     let todayDate = new Date()
@@ -11,7 +11,7 @@ let greeting =()=> {
     document.write("<h3>! We're gladd you are doing </h3>");
     document.write(userFeeling);
     document.write("<h3>!</h3>");
-}
+//}
 
 let test1 = ()=> {
     alert("I'm testing my script 1.");
