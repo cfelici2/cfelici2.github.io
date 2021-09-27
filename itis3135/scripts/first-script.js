@@ -32,13 +32,34 @@ let lazyTest = ()=> {
     q1 = parseInt(q2);
     let q3 = prompt("How many times a week do you workout?");
     q1 = parseInt(q3);
+    let count = 0
     if (q1<=3) {
-        if (q2>15) {
-            if (q3<3) {
-                alert("You are VERY lazy.");
-            }
-            alert("You're becoming lazy.'");
-        }
-        alert("You're just tired.");
+        count++;
     }
+    if (q2>15) {
+        count++;        
+    }
+    if (q3<3) {
+        count++;    
+    }
+
+    switch (count) {
+        case 1:
+            alert("You're just tired.");
+            break;
+        case 2:
+            alert("You're becoming lazy.");
+            break;
+        case 3:
+            alert("You are VERY lazy.");
+            break;
+        default:
+            alert("You're not lazy.");
+            break;
+                    
+    }
+
+
+
+            
 }
