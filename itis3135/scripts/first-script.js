@@ -1,9 +1,9 @@
 //let greeting =()=> {
-    let userName = prompt("What is your name?");
-    let userFeeling = prompt("How are you doing?");
-    let todayDate = new Date()
-    document.write("<h1>Today is "+ todayDate.toDateString() + ", and the time is: "+ todayDate.toTimeString() +".</h1>");
-    document.write("<h1>The Careless Fox welcomes you, "+ userName +"! We're glad you are doing "+ userFeeling +"!</h1><br>")
+    //let userName = prompt("What is your name?");
+    //let userFeeling = prompt("How are you doing?");
+    //let todayDate = new Date()
+    //document.write("<h1>Today is "+ todayDate.toDateString() + ", and the time is: "+ todayDate.toTimeString() +".</h1>");
+    //document.write("<h1>The Careless Fox welcomes you, "+ userName +"! We're glad you are doing "+ userFeeling +"!</h1><br>")
 //}
 
 let favoriteCoffee = ()=> {
