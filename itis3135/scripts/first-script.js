@@ -17,8 +17,14 @@ let foxAge = ()=> {
     alert("Your age in fox years would be "+ convertAge +".");
 }
 
-let test3 = ()=> {
-    alert("I'm testing my script 3.");
+let runningSpeed = ()=> {
+    let distance = prompt("Enter your total distance (in kilometers): ");
+    distance = parseInt(distance);
+    let min = prompt("Enter the amount of time for your run (in minutes):");
+    min = parseInt(min);
+
+    let speed = distance/min;
+    alert("Your running speed is calculated to be "+ speed +"km/min.")
 }
 
 let test4 = ()=> {

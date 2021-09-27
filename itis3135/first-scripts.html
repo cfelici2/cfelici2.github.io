@@ -26,21 +26,30 @@
             </figure>
         </header>
         <main>
+            <h2 style="text-align: center;">First Script</h2>
+            <br>
+            <script>
+                let userName = prompt("What is your name?");
+                let userFeeling = prompt("How are you doing?");
+                let todayDate = new Date()
+                document.write("<h1>Today is "+ todayDate.toDateString() + ", and the time is: "+ todayDate.toTimeString() +".</h1>");
+                document.write("<h1>The Careless Fox welcomes you, "+ userName +"! We're glad you are doing "+ userFeeling +"!</h1><br>")
+            </script>
             <br>
             <h3>Click here to record your favorite coffeebrand!</h3>
-            <button onclick="favoriteCoffee()">Coffee</button>
+            <button onclick="favoriteCoffee()">Click here</button>
             <br>
             <h3>Click here to see your age as a fox!</h3>
-            <button onclick="foxAge()">Age</button>
+            <button onclick="foxAge()">Click here</button>
+            <br>
+            <h3>Click here to calculate running speed!</h3>
+            <button onclick="runningSpeed()">Click here</button>
             <br>
             <h3>Click here to </h3>
-            <button onclick="test3()"></button>
-            <br>
-            <h3>Click here to </h3>
-            <button onclick="test4()"></button>
+            <button onclick="test4()">Click here</button>
             <br>
             <h3>Click here for a lazy test!</h3>
-            <button onclick="lazyTest()">Test</button>
+            <button onclick="lazyTest()">Click here</button>
             <br>
         </main>
         <footer>
