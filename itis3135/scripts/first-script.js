@@ -8,15 +8,13 @@
 
 let favoriteCoffee = ()=> {
     let fav = prompt("Enter your favorite coffee brand:");
-    alert("Your favorite coffee brand has been recorded.");
-    document.write("Favorite coffee brand: "+ fav);
+    alert("Congratulations! Here's a $10 coupon to "+ fav);
 }
 
 let foxAge = ()=> {
     let userAge = prompt("Enter your age: ");
     let convertAge = userAge*5.71;
     alert("Your age in fox years would be "+ convertAge +".");
-    document.write("Fox age: "+ convertAge);
 }
 
 let test3 = ()=> {
@@ -29,8 +27,11 @@ let test4 = ()=> {
 
 let lazyTest = ()=> {
     let q1 = prompt("How many times do you go outside of your house?");
+    q1 = parseInt(q1);
     let q2 = prompt("How long do you sleep each day?");
+    q1 = parseInt(q2);
     let q3 = prompt("How many times a week do you workout?");
+    q1 = parseInt(q3);
     if (q1<=3) {
         if (q2>15) {
             if (q3<3) {
