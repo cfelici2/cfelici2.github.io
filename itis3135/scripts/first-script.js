@@ -57,9 +57,5 @@ let lazyTest = ()=> {
             alert("You're not lazy.");
             break;
                     
-    }
-
-
-
-            
+    }      
 }
