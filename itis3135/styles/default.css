@@ -97,3 +97,8 @@ button {
 h3 a:any-link {
     color:yellow;
 }
+
+/* FreeCodeCampCalculator */
+.calculator__keys {
+    display: grid;
+}
