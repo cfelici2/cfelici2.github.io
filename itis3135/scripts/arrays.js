@@ -60,8 +60,8 @@ let displayResults = ()=> {
 }
 
 window.onload = ()=> {
-    $("add").onclick = addSalary;
-    $("salary").onclick = displaySalary;
-    $("result").onclick = displayResults;
+    $("addBtn").onclick = addSalary;
+    $("salaryBtn").onclick = displaySalary;
+    $("resultBtn").onclick = displayResults;
     $("name").focus();
 }
