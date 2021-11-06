@@ -1,0 +1,27 @@
+header, footer, figure, nav{
+    text-align: center;
+}
+body {
+    background-color: #c8ab83
+}
+h1, h2, h3 {
+    color: #f64740;
+    text-align: center;
+}
+a, p{
+    color: #262626
+}
+.center {
+    text-align: center;
+}
+
+/*Color Classes*/
+.light-french-beige {
+    color: #c8ab83
+}
+.tart-orange {
+    color: #f64740
+}
+.eerie-black {
+    color: #262626
+}
