@@ -40,6 +40,10 @@ a {
     text-decoration: none;
     color: black;
 }
+a h3 {
+    text-align: center;
+    color: #fc5464;
+}
 img {
     height: 200px;
 }
