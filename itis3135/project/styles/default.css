@@ -1,109 +1,98 @@
+/*Style css*/
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri;
-    color: yellow;
-    background-color: teal;
-    margin-left: 75px;
-    margin-right: 75px;
+    background-color: bisque;
+    margin: 50px;
 }
 header, footer {
     text-align: center;
-    color: yellow;
+    color: #fc5464;
     font-weight: bold;
+    margin-top: 20px;
 }
 nav {
     text-align: center;
+    font-weight: bold;
 }
-figure {
-    text-align: center;
+main {
+    background-color: whitesmoke;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
 }
-figcaption {
-    font-style: italic;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-ul ul {
-    list-style-type: circle;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-}
-h1, h2, h3 {
-    color: yellow;
+h1, h2 {
+    color: #fc5464;
     font-family: Cambria, Cochin;
     text-align: center;
+    margin: 20px;
 }
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+h3 {
+    font-family: Cambria, Cochin;
+    margin: 20px;
+}
+p {
+    color: black;
+    margin: 20px;
 }
 a {
     text-decoration: none;
-    color: orange;
+    color: black;
 }
 img {
     height: 200px;
 }
-
-table
-{
-	border-collapse: collapse;
-	
-	margin: 20px;
+ul {
+    margin: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+}
+form {
+    margin: 50px;
+}
+form {
+    font-weight: bold;
 }
 
-thead tr:nth-child(1)
-{
-	background-color: blue;
+/*Table css*/
+table {
+    margin: 20px;
 }
-
-th, td
-{
+thead tr {
+    background-color: bisque
+}
+th, td {
 	border: 1px solid black;
 	padding: .2em 1em .2em .5em;
 	text-align: left;
 	vertical-align: middle;
 }
-
-tbody tr:nth-child(odd) td
-{
-	background-color: hsl(240, 100%, 60%);
+tbody tr:nth-child(odd) td {
+	background-color: #ec8c8c;
 }
-tbody tr:nth-child(even) td
-{
-	background-color: hsl(240, 100%, 80%);
+tbody tr:nth-child(even) td {
+	background-color: #ecdcd4;
 }
 
-button {
-    background-color: darkblue;
-    color: yellow;
+/*ID css*/
+#cherry_blossom {
+    text-align: left;
+    margin: 20px;
 }
-.text-input{
-    font-family: monospace;
-    font-size: 12px;
-    width: 30%;
-    border-radius: 3px;
+#default_margin{
+    margin: 20px;
 }
-h3 a:any-link {
-    color:yellow;
-}
-
-/* FreeCodeCampCalculator */
-.calculator__keys {
-    display: grid;
-}
-
-#form_center {
+#center {
     text-align: center;
+}
+
+/*Class css*/
+.black_text {
+    color: black;
+}
+.bold_text {
+    font-weight: bold;
+}
+.cherry_text {
+    color: #fc5464;
 }
