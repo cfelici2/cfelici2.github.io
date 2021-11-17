@@ -11,7 +11,7 @@ $(document).ready(function() {
         },
         dataType: "json",
         success: function(data) {
-            //$("#team").html("");
+            $("#team").html("");
             $.each(data, function() {
                 $.each(this, function(key, value) {
                     $("#team").append(
