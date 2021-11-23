@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#sorkin").click(function() {
+    $('#nav_list ul li a[title~="sorkin"]').click(function() {
         $.ajax({
             type: "get",
             url: "json_files/sorkin.json",
@@ -11,15 +11,16 @@ $(document).ready(function() {
             dataType: "json",
             success: function(data) {
                 var html = "";
-                $.each(data.items, function(key, value) {
+                $.each(data.items, function(i, value) {
                     html += "<h1>" + value.title + "</h1>" 
                     html += "<h2>" + value.month + "</h2>" 
                     html += "<h3>" + value.speaker + "</h3>"
-                    html += "<img src=" + value.image.m + ">" 
+                    html += "<img src=" + value.image + ">" 
                     html += "<p>" + value.text + "</p>" 
                 });
                 $("main").html(html);
             }
         });
     });
+    
 }); // end ready
