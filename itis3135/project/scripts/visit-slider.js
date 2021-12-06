@@ -7,6 +7,6 @@ $(document).ready(function(){
         slideMargin: 20,
         randomStart: true,
         captions: true,
-        speed: 300
+        speed: 500
     });
 });
