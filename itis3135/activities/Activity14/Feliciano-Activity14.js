@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('#nav_list ul li a[title~="sorkin"]').click(function() {
+    $('#nav_list ul li a').click(function() {
         $.ajax({
             type: "get",
-            url: "json_files/sorkin.json",
+            url: "json_files/" + this.title + ".json",
             //beforeSend: function() {},
             timeout: 10000,
             error: function(xhr, status, error) {
