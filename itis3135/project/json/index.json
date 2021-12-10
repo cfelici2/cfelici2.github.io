@@ -1,0 +1,18 @@
+{"pages":[
+	{
+		"title":"Why Should you Visit?",
+		"link":"index.html"
+	},
+    {
+		"title":"How to Plan a Visit",
+		"link":"planVisit.html"
+	},
+    {
+		"title":"Schedule Builder",
+		"link":"scheduleBuilder.html"
+	},
+    {
+		"title":"Places to Explore",
+		"link":"places.html"
+	}
+]}
