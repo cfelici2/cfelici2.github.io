@@ -1,27 +1,27 @@
 {"places":[
 	{
 		"name":"Tokyo",
-		"about":"",
-		"list":""
+		"about":"*placeholder*",
+		"list":"*placeholder*"
 	},
     {
 		"name":"Kyoto",
-		"about":"",
-		"list":""
+		"about":"*placeholder*",
+		"list":"*placeholder*"
 	},
     {
 		"name":"Osaka",
-		"about":"",
-		"list":""
+		"about":"*placeholder*",
+		"list":"*placeholder*"
 	},
     {
 		"name":"Fukuoka",
-		"about":"",
-		"list":""
+		"about":"*placeholder*",
+		"list":"*placeholder*"
 	},
     {
 		"name":"Nara",
-		"about":"",
-		"list":""
+		"about":"*placeholder*",
+		"list":"*placeholder*"
 	}
 ]}
