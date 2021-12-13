@@ -2,31 +2,26 @@
 	{
 		"name":"Tokyo",
 		"about":"Tokyo is the capital city of Japan and is the largest urban metropolis in the country. The city offers a wide variety of shopping centers, dinning, entertainment and more. Much of the city's history can be seen from museums and temples that are around the city. Some of the activities within the city include:",
-		"list":"TeamLAB Museum, the Imperial Palace, Tokyo Skytree, Akihabara",
-		"image":""
+		"list":"TeamLAB Museum, the Imperial Palace, Tokyo Skytree, Akihabara"
 	},
     {
 		"name":"Kyoto",
 		"about":"Kyoto is the second largest city in Japan known for the many temples, palaces, and gardens that the city has to offer/. Much of the area within the city offers a piece of historic value for tourist to come and visit and has become the center of Japan's history and culture. Some of the activitie within the city include:",
-		"list":"Nijo Castle, Fushimi-Inari Taisha Shrine, Kiyomizu-dera Temple",
-		"image":""
+		"list":"Nijo Castle, Fushimi-Inari Taisha Shrine, Kiyomizu-dera Temple"
 	},
     {
 		"name":"Osaka",
 		"about":"Osaka is the third largest city in Japan and is very much a commercial city like Tokyo. The city is widely known for it's street food and offers a lot of social location perfect for drinking and bonding with others. Some of the activities within the city include:",
-		"list":"Osaka Castle, Shinsekai District, Osaka Aquarium, Minami District",
-		"image":""
+		"list":"Osaka Castle, Shinsekai District, Osaka Aquarium, Minami District"
 	},
     {
 		"name":"Fukuoka",
-		"about":"Fukuoka is one of the largest cites in Japan and is a major harbor for its neighboring countries The city is a merge of Some of the activities within the city include:",
-		"list":"Kushida Shrine, Uminonakamichi Park, Yatai (food stands), Ohori Park, Tenjin Underground Mall",
-		"image":""
+		"about":"Fukuoka is one of the largest cites in Japan and is a major harbor for its neighboring countries. The city offers many parks for travelers to explore and enjoy the view, as well as other attractions such as shopping centers and museums. Some of the activities within the city include:",
+		"list":"Kushida Shrine, Uminonakamichi Park, Yatai (food stands), Ohori Park, Tenjin Underground Mall"
 	},
     {
 		"name":"Nara",
 		"about":"Nara is one of the well-known cities in japan that has a more open landscape for travelers to enjoy. Much of the city is composed of gardens and temples that offer some history of the city. Some of the activities within the city include:",
-		"list":"Nara Park, Todaiji Temple, Omizutori, Isuien Garden",
-		"image":""
+		"list":"Nara Park, Todaiji Temple, Omizutori, Isuien Garden"
 	}
 ]}
