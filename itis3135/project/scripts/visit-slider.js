@@ -3,8 +3,8 @@ $(document).ready(function(){
         auto: true,
         minSlides: 1,
         maxSlides: 1,
-        slideWidth: 500,
-        slideMargin: 20,
+        slideWidth: 300,
+        slideMargin: 30,
         randomStart: true,
         captions: true,
         speed: 500

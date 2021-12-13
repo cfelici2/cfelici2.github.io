@@ -1,23 +1,23 @@
-var $ = function(id) {return document.getElementById(id);};
+$(document).ready(function() {
+    var total_cost = 0;
+    var total_days = 0;
+    $("#add").click(function() {
+        var activity = $("#activity").val();
+        var location = $("#location").val();
+        var duration = parseFloat($("#duration").val());
+        var cost = parseFloat($("#cost").val());
+        total_cost = parseFloat(total_cost + cost);
+        total_days = parseFloat(total_days + duration);
 
-function tableForm () {
-    var activity = $("activity").firstChild.nodeValue;
-    var location = $("location").firstChild.nodeValue;
-    var duration = $("duration").firstChild.nodeValue;
-    var cost = $("cost").firstChild.nodeValue;
-
-    var table = document.getElementById("table");
-    var row = table.insertRow(0);
-
-    var col1 = row.insertCell(0);
-    var col2 = row.insertCell(1);
-    var col3 = row.insertCell(2);
-    var col4 = row.insertCell(3);
-    col1.innerHTML = activity;
-    col2.innerHTML = location;
-    col3.innerHTML = duration;
-    col4.innerHTML = cost;
-}
-windows.onload = function() {
-$("add").onclick = tableForm;
-};
+        $("#table").append(
+            "<tr>" +
+                "<td>" + activity + "</td>" +
+                "<td>" + location + "</td>" +
+                "<td>" + duration + "</td>" +
+                "<td>" + cost + "</td>" +
+            "</tr>"
+        );
+        $("#tcost").html("<p>Total cost of trip: " + total_cost + "</p>");
+        $("#tdays").html("<p>Total amount of days for trip: " + total_days + "</p>");
+    });
+});

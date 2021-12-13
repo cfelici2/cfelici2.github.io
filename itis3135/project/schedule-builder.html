@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link href="styles/default.css" rel="stylesheet" type="text/css">
-        <script src="scripts/schedule.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="scripts/schedule.js"></script>
         <title>Caleb Feliciano, ITIS 3135, Schedule Builder</title>
     </head>
     <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
@@ -18,13 +18,13 @@
             <a href="index.html">
                 Home Page</a>
              ║ 
-            <a href="whyVisit.html">
+            <a href="why-visit.html">
                 Why Visit?</a>
              ║ 
-            <a href="planVisit.html">
+            <a href="plan-visit.html">
                 How to Plan</a>
              ║ 
-            <a href="scheduleBuilder.html">
+            <a href="schedule-builder.html">
                 Schedule Builder</a>
              ║
             <a href="places.html">
@@ -46,7 +46,7 @@
             </form>
             <h3>Here is your schedule:</h3>
             <br>
-            <table>
+            <table id="table">
                 <thead>
                     <tr>
                         <th>Activity</th>
@@ -54,14 +54,11 @@
                         <th>Duration</th>
                         <th>Cost</th>
                     </tr>
-                </thead>
-                <tbody>
-                    <div id="table">
-                </tbody>    
+                </thead> 
             </table>
             <br>
-            <p>Total cost of trip: </p>
-            <p>Total amount of days for trip: </p>
+            <div id="tcost"></div>
+            <div id="tdays"></div>
             </main>
         <footer>
             <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fcfelici2%2Fitis3135%2Fproject%2FscheduleBuilder.html">

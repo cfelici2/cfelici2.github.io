@@ -50,6 +50,7 @@ img {
 ul {
     margin: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+    text-align: center;
 }
 form {
     margin: 50px;
@@ -99,4 +100,7 @@ tbody tr:nth-child(even) td {
 }
 .cherry_text {
     color: #fc5464;
+}
+.center {
+    text-align: center;
 }

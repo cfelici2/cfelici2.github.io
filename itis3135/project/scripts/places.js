@@ -16,8 +16,10 @@ $(document).ready(function() {
                 $.each(this, function(key, value) {
                     $("#places").append(
                         "<li><h3>" + value.name + "</h3>" +
+                        "<img src=" + value.image + ">" +
                         "<p>" + value.about + "</p>" +
-                        "<p>" + value.list + "</p></li>"
+                        "<p>" + value.list + "</p></li>" +
+                        "<br>"
                     );
                 });
             });
